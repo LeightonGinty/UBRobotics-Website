@@ -55,7 +55,6 @@ let data = [];
   //       // res.send(e);
   
   //   }
-  //   console.log("help");
     callBackendAPI()     
      
       console.log("help");
