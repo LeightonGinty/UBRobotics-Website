@@ -5,6 +5,7 @@ import './App.css';
 // import Carousel from './Carousel';
 // import react, { Component } from 'react'
 import Hero from './HeroImage';
+import Join from './Join';
 import Nav from './Nav';
 import Section from './Section';
 import { useState } from "react";
@@ -139,25 +140,17 @@ let data = [];
     </p>
     </div>
 
-    <Section className="section" id="News"  name="News" />
-    <div className='newsControl' >
-    <News />
-    <News />
-    <form method='GET' action='/AllNews'>
-    <button className='readMore'>
-      {/* <a href = "#" > */}
-      <Link to="/AllNews" style={{color: "white"}}>
-        Read More
-      </Link>
-      
-      {/* </a> */}
-    </button>
-    </form>
+    <Section className="section" id="Join"  name="Join Us"/>
+    {/* <form method='GET' action='/AllNews'> */}
 
-    </div>
+    <Join id="joinsection" image={"IMG_3020.JPG"}/>
 
-    <Section className="section" id="Join"  name="JoinUs"/>
-
+    {/* <img alt='uhbgbuhbjnk' className='gallery' src={require('./IMG_3020.JPG')}/>    
+    <img src='/img/IMG_3023.JPG'>    
+    </img>
+    <img src='/img/IMG_3026.JPG'>    
+    </img> */}
+    {/* </form> */}
     <Section className="section" id="Contact"  name="Contact"/>
     <Footer/>
 

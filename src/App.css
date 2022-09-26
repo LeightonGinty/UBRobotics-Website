@@ -91,6 +91,7 @@ position: relative;
     margin-right: auto; 
 
 }
+
 .formElement {
   /* margin-left: 20px; */
   width: 80vw; 
@@ -296,9 +297,12 @@ body {
   color: black;
 }
 
+.gallery{
+
+}
+
 .topnav a.active {
-  background-color: var(--bs-primary);
-  background-image: url("UBRoboticsLogo3.png");
+  background-image: url("UBRoboticsLogo4.png");
   height: 50px;
   width: 200px;
   background-position: center;
